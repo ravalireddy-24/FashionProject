@@ -1,4 +1,23 @@
-id
+idid,title,brand,price,style,occasion,colors,season,popularity,description,image_path,shopping_url
+1,Soft Structure Edit,Aster & Row,148,Business Casual,Office,"Beige,Black,White",All Season,96,"A softly tailored layer paired with clean, versatile essentials.",stylesense_ai/data/sample_images/look_1.svg,https://example.com/look/1
+2,Midnight Tailoring,Studio Nine,175,Minimal,Office,"Navy,Gray,White",Winter,91,"Sharp navy tailoring balanced by a relaxed modern silhouette.",stylesense_ai/data/sample_images/look_2.svg,https://example.com/look/2
+3,Weekend Neutral,Maison Vale,132,Minimal,Casual,"Brown,Beige,White",Autumn,89,"Elevated neutral separates designed for effortless weekend wear.",stylesense_ai/data/sample_images/look_3.svg,https://example.com/look/3
+4,Monochrome Muse,North & Finch,165,Luxury,Party,"Black,White,Gray",All Season,88,"A refined monochrome statement with a subtle evening edge.",stylesense_ai/data/sample_images/look_4.svg,https://example.com/look/4
+5,Rose Hour Edit,Celine Park,195,Elegant,Wedding,"Red,Pink,Beige",Spring,94,"Romantic color and fluid lines create an elegant occasion look.",stylesense_ai/data/sample_images/look_5.svg,https://example.com/look/5
+6,Modern Utility,Common Thread,118,Streetwear,Travel,"Green,Beige,Black",Autumn,86,"Practical layers and polished utility details for days in motion.",stylesense_ai/data/sample_images/look_6.svg,https://example.com/look/6
+7,Violet Evening,Lune Atelier,220,Luxury,Party,"Purple,Black,Gray",Winter,92,"Rich violet tones meet sculptural evening proportions.",stylesense_ai/data/sample_images/look_7.svg,https://example.com/look/7
+8,Sunset Motion,Form Studio,98,Sporty,Travel,"Orange,Beige,White",Summer,84,"Lightweight, energetic separates made for warm-weather movement.",stylesense_ai/data/sample_images/look_8.svg,https://example.com/look/8
+id,title,brand,price,style,occasion,colors,season,popularity,description,image_path,shopping_url
+1,Soft Structure Edit,Aster & Row,148,Business Casual,Office,"Beige,Black,White",All Season,96,"A softly tailored layer paired with clean, versatile essentials.",stylesense_ai/data/sample_images/look_1.svg,https://example.com/look/1
+2,Midnight Tailoring,Studio Nine,175,Minimal,Office,"Navy,Gray,White",Winter,91,"Sharp navy tailoring balanced by a relaxed modern silhouette.",stylesense_ai/data/sample_images/look_2.svg,https://example.com/look/2
+3,Weekend Neutral,Maison Vale,132,Minimal,Casual,"Brown,Beige,White",Autumn,89,"Elevated neutral separates designed for effortless weekend wear.",stylesense_ai/data/sample_images/look_3.svg,https://example.com/look/3
+4,Monochrome Muse,North & Finch,165,Luxury,Party,"Black,White,Gray",All Season,88,"A refined monochrome statement with a subtle evening edge.",stylesense_ai/data/sample_images/look_4.svg,https://example.com/look/4
+5,Rose Hour Edit,Celine Park,195,Elegant,Wedding,"Red,Pink,Beige",Spring,94,"Romantic color and fluid lines create an elegant occasion look.",stylesense_ai/data/sample_images/look_5.svg,https://example.com/look/5
+6,Modern Utility,Common Thread,118,Streetwear,Travel,"Green,Beige,Black",Autumn,86,"Practical layers and polished utility details for days in motion.",stylesense_ai/data/sample_images/look_6.svg,https://example.com/look/6
+7,Violet Evening,Lune Atelier,220,Luxury,Party,"Purple,Black,Gray",Winter,92,"Rich violet tones meet sculptural evening proportions.",stylesense_ai/data/sample_images/look_7.svg,https://example.com/look/7
+8,Sunset Motion,Form Studio,98,Sporty,Travel,"Orange,Beige,White",Summer,84,"Lightweight, energetic separates made for warm-weather movement.",stylesense_ai/data/sample_images/look_8.svg,https://example.com/look/8
+
+
 
 
 

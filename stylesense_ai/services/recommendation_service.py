@@ -9,6 +9,9 @@ class RecommendationService:
     def __init__(self, database: DatabaseManager) -> None:
         self.database = database
         self.catalog = pd.read_csv(OUTFITS_PATH)
+        self.catalog["image_path"] = self.catalog["image_path"].map(
+            lambda path: str(OUTFITS_PATH.parents[2] / path)
+        )
         self.recommender = FashionRecommender(self.catalog)
 
     def generate(self, preferences: dict[str, Any], image_embedding=None, persist: bool = True) -> list[dict[str, Any]]:

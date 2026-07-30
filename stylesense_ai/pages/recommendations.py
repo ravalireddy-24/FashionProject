@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 from database.db_manager import DatabaseManager
 from services.recommendation_service import RecommendationService
 from utils.constants import DEFAULT_PREFERENCES, GENDERS, OCCASIONS, SEASONS, STYLES

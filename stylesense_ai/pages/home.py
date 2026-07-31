@@ -1,6 +1,8 @@
 import streamlit as st
 
 from utils.ui import metric_row
+
+
 def _go_to(page: str) -> None:
     st.session_state.page = page
     st.rerun()
@@ -25,7 +27,8 @@ def render() -> None:
         unsafe_allow_html=True,
     )
 
-    copy, preview = st.columns([0.9, 1.1], gap="large", vertical_alignment="center")
+    copy, preview = st.columns([1.08, 1], gap="large", vertical_alignment="center")
+
     with copy:
         st.markdown(
             """
@@ -52,7 +55,7 @@ def render() -> None:
     with preview:
         st.markdown(
             """
-                   <div class="fashion-preview" role="img" aria-label="AI outfit analysis preview">
+                 <div class="fashion-preview" role="img" aria-label="AI outfit analysis preview">
                 <div class="photo-scene"><div class="person-silhouette"><span></span></div></div>
                 <div class="analysis-score"><b>96%</b><small>Style Match</small></div>
                 <div class="analysis-pills">
@@ -69,7 +72,7 @@ def render() -> None:
 
     st.markdown(
         """
-  <section class="feature-strip" id="features">
+        <section class="feature-strip" id="features">
             <h2>Powerful Features to Elevate Your Style <span>✦</span></h2>
             <div class="feature-strip-grid">
                 <article><i>♟</i><b>Smart Outfit<br>Recommendations</b><small>AI curates outfits just for you</small></article>

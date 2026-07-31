@@ -75,12 +75,12 @@ def render() -> None:
         <section class="feature-strip" id="features">
             <h2>Powerful Features to Elevate Your Style <span>✦</span></h2>
             <div class="feature-strip-grid">
-                <article><i>♟</i><b>Smart Outfit<br>Recommendations</b><small>AI curates outfits just for you</small></article>
-                <article><i>✣</i><b>Virtual Try-On</b><small>See how outfits look on you instantly</small></article>
-                <article><i>✥</i><b>Style Insights</b><small>Get tips to improve your style game</small></article>
-                <article><i>▣</i><b>Wardrobe Manager</b><small>Organize, mix &amp; match your wardrobe</small></article>
-                <article><i>🛒</i><b>Shopping Assistant</b><small>Find similar looks from top brands</small></article>
-                <article><i>♡</i><b>Save &amp; Share</b><small>Save favorites and share with friends</small></article>
+            <a href="?page=Recommendations" target="_self" aria-label="Open Smart Outfit Recommendations"><article><i>♟</i><b>Smart Outfit<br>Recommendations</b><small>AI curates outfits just for you</small></article></a>
+                <a href="?page=Recommendations" target="_self" aria-label="Open Virtual Try-On"><article><i>✣</i><b>Virtual Try-On</b><small>See how outfits look on you instantly</small></article></a>
+                <a href="?page=Recommendations" target="_self" aria-label="Open Style Insights"><article><i>✥</i><b>Style Insights</b><small>Get tips to improve your style game</small></article></a>
+                <a href="?page=Recommendations" target="_self" aria-label="Open Wardrobe Manager"><article><i>▣</i><b>Wardrobe Manager</b><small>Organize, mix &amp; match your wardrobe</small></article></a>
+                <a href="?page=Recommendations" target="_self" aria-label="Open Shopping Assistant"><article><i>🛒</i><b>Shopping Assistant</b><small>Find similar looks from top brands</small></article></a>
+                <a href="?page=Recommendations" target="_self" aria-label="Open Save &amp; Share"><article><i>♡</i><b>Save &amp; Share</b><small>Save favorites and share with friends</small></article></a>
             </div>
         </section>
     
